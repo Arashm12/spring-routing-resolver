@@ -97,7 +97,7 @@
 						<id>default-compile</id>
 						<configuration>
 							<!-- compile everything to ensure module-info contains right entries -->
-							<release>9</release>
+							<release>8</release>
 						</configuration>
 					</execution>
 					<execution>
@@ -117,7 +117,7 @@
 				<configuration>
 					<!-- Only required when JAVA_HOME isn't at least Java 9 and when haven't configured the maven-toolchains-plugin -->
 					<jdkToolchain>
-						<version>9</version>
+						<version>8</version>
 					</jdkToolchain>
 					<release>8</release>
 				</configuration>
